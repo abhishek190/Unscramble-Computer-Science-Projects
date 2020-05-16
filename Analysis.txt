@@ -1,0 +1,31 @@
+#Task 0
+In this i have to print first record of and last record of calls
+first one only takes unit time 
+worst case O(1)
+second one i first reverse it and then print the first one 
+this one take O(n) time to reverse where n is length of input 
+#Task 1
+in this one total time=n(caluclate no distinct no in texts) + n(caluclate no distinct no in texts)
+worst case O(n)
+#Task 2
+i am iterating over calls and using variable great to check the longest duration
+if there is any which is greater than great then i update the value great and no 
+worst time O(n) where n is input length
+#Task 3
+part A
+ i am iterating over calls checking for parenthesis and no if i found then i store it in varialbe z
+i used sorting  
+worst time O(nlogn)
+part B 
+same as Part A iterating over every inputs and checking according to condition 
+ worst case O(n)
+#Task 4
+ in this i first iterate over calls from calling section and mark its value as 0
+ the after i iterate over answring section and mark it as 1
+ then in text section for both and mark it as 1
+ then again maintain an another directory and stored all remaining no whose value is 
+ 0 into new variable and i sorted it 
+ in this i use telephone no as value in directory
+time complexity 
+ worst time n(iteration time )+nlogn time for sorting 
+ O(nlogn)
